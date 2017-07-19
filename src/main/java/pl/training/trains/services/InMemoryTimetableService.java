@@ -68,12 +68,10 @@ public class InMemoryTimetableService implements TimetableService {
 
     @Override
     public void scheduleArrivalTime(String line, LocalTime departureTime) {
-        //To change body of created methods use File | Settings | File Templates.
     }
 
     @Override
     public LocalTime getArrivalTime(String travellingOnLine, String destination) {
-        // TODO: Call the back-end service to retrieve this data
         return null;
     }
 }
